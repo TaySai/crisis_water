@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc7ed6ee-b73c-4b12-8e31-a1d7233ded0d" name="Default Changelist" comment="" />
+    <list default="true" id="dc7ed6ee-b73c-4b12-8e31-a1d7233ded0d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,6 +244,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -269,12 +272,12 @@
       <workItem from="1544796895885" duration="272000" />
       <workItem from="1544798171186" duration="2739000" />
       <workItem from="1545001707922" duration="5841000" />
-      <workItem from="1545008046441" duration="241000" />
+      <workItem from="1545008046441" duration="376000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9441000" />
+    <option name="totallyTimeSpent" value="9576000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
