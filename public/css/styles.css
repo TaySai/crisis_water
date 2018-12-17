@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+header {
+    padding: 17px 0;
+    background-color: #4285F4;
+}
+header img {
+    float: left;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+header a {
+    font-size: 18px;
+    color: white;
+    margin: 0 15px;
+}
+/*container*/
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/*Les boutons */
+.btn-blue-filled-white:hover, .btn-white-filled-blue:hover {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.5s;
+    transition-property: box-shadow;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+}
+.btn-blue-filled-white {
+    background-color: white;
+    color: #3267D6;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.btn-white-filled-blue {
+    background-color: #4285F4;
+    color: white;
+    border-radius: 3px;
+    padding: 4px 18px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.btn-small {
+    padding: 4px 18px;
+}
+.btn-medium {
+    padding: 10px 30px;
+}
+
+
+/*Les class*/
+.welcome-index {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.welcome-index h1 {
+    color: #3D4752;
+    font-size: 36px;
+    margin: 0 27% 30px;
+    line-height: 1.2;
+}
+.displa-flex {
+    display: flex;
+}

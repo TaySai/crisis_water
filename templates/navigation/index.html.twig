@@ -1,0 +1,55 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello {{ controller_name }}!{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <div class="welcome-index">
+            <h1>👋 Bonjour ! Nous rassemblons pour vous les datasets bla bla.</h1>
+            <a href="#" class="btn-white-filled-blue btn-medium">Découvrir</a>
+        </div>
+
+        <div class="displa-flex">
+            <div>
+                <h2>Enquête 2018</h2>
+                <a href="#">Regarder</a>
+            </div>
+            <div>
+                <h2>Contactez-nous</h2>
+                <form>
+                    <input type="text" placeholder="Adresse">
+                    <button>Envoyer</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="displa-flex">
+            <div>
+                <h2>Nous collectons pour vous les datasets fournis par l'OMS</h2>
+                <a href="#">Regarder</a>
+            </div>
+            <div>
+                <h2>Comparer les differents changement sur l'eau au fil des années</h2>
+                <a href="#">Regarder</a>
+            </div>
+        </div>
+
+        <div>
+            <h3></h3>
+            <div>
+                <div>
+                    <img src="#">
+                    <h3>Assainissement</h3>
+                </div>
+                <div>
+                    <img src="#">
+                    <h3>Séchresse</h3>
+                </div>
+                <div>
+                    <img src="#">
+                    <h3>Pollution</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
