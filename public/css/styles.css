@@ -19,6 +19,9 @@ header a {
     color: white;
     margin: 0 15px;
 }
+h1, h2 {
+    color: #3D4752;
+}
 /*container*/
 .container {
     max-width: 1200px;
@@ -40,6 +43,7 @@ header a {
     border-radius: 3px;
     font-size: 18px;
     font-weight: bold;
+    border: none;
 }
 .btn-white-filled-blue {
     background-color: #4285F4;
@@ -48,6 +52,7 @@ header a {
     padding: 4px 18px;
     font-size: 18px;
     font-weight: bold;
+    border: none;
 }
 .btn-small {
     padding: 4px 18px;
@@ -64,11 +69,81 @@ header a {
     text-align: center;
 }
 .welcome-index h1 {
-    color: #3D4752;
     font-size: 36px;
     margin: 0 27% 30px;
     line-height: 1.2;
 }
-.displa-flex {
+.display-flex {
     display: flex;
+    margin: 20px 0;
+}
+.first-box-big {
+    width: 800px;
+    margin-right: 40px;
+    position: relative;
+    overflow: hidden;
+    min-height: 308px;
+}
+.first-box-big h2 {
+    width: 410px;
+}
+.first-box-big img {
+    position: absolute;
+    width: 70%;
+    bottom: -5%;
+    right: 0%;
+    opacity: 0.15;
+}
+.first-box-big, .second-box-small {
+    padding: 20px 40px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    height: 100%;
+}
+.first-box-big h2, .second-box-small h2 {
+    font-size: 36px;
+}
+.second-box-small {
+    width: 228px;
+    min-height: 308px;
+    background-color: #EFEFEF;
+}
+.second-box-small input {
+    color: #000000;
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    height: 40px;
+    width: 218px;
+    text-indent: 10px;
+    margin-bottom: 20px;
+}
+.first-box-medium, .second-box-medium {
+    margin-top: 20px;
+    padding: 20px 40px;
+    width: 42%;
+    border-radius: 16px;
+    height: 310px;
+    position: relative;
+    overflow: hidden;
+}
+.first-box-medium h2, .second-box-medium h2 {
+    color: white;
+    font-size: 38px;
+}
+.first-box-medium img, .second-box-medium img {
+    position: absolute;
+    width: 90%;
+    bottom: -5%;
+    right: -15%;
+    opacity: 0.15;
+}
+.first-box-medium {
+    background-image: linear-gradient(-45deg, #77BBFA 0%, #4285F4 100%);
+    margin-right: 40px;
+}
+.second-box-medium {
+    background-color: #1F3E71;
 }
