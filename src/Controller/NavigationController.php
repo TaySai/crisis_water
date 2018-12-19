@@ -13,8 +13,14 @@ class NavigationController extends AbstractController
     public function index()
     {
 
-        return $this->render('navigation/index.html.twig', [
-            'controller_name' => 'NavigationController',
-        ]);
+        return $this->render('navigation/index.html.twig');
+    }
+    /**
+     * @Route("/annee/2018/assainissement", name="assainissement")
+     */
+    public function assainissement()
+    {
+
+        return $this->render('navigation/eda.html.twig');
     }
 }

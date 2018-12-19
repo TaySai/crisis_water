@@ -1,6 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello {{ controller_name }}!{% endblock %}
+{% block title %}Hello !{% endblock %}
 
 {% block body %}
     <div class="container">
@@ -37,20 +37,20 @@
             </div>
         </div>
 
-        <div>
-            <h3></h3>
-            <div>
-                <div>
-                    <img src="#">
-                    <h3>Assainissement</h3>
+        <div class="cross-ads">
+            <h2>Les nouveux datasets</h2>
+            <div class="display-flex">
+                <div class="cross-item">
+                    <a href="#"><img src="{{ asset('img/cover.png') }}"></a>
+                    <h3><a href="#">Assainissement</a></h3>
                 </div>
-                <div>
-                    <img src="#">
-                    <h3>Séchresse</h3>
+                <div class="cross-item">
+                    <a href="#"><img src="{{ asset('img/cover2.jpg') }}"></a>
+                    <h3><a href="#">Séchresse</a></h3>
                 </div>
-                <div>
-                    <img src="#">
-                    <h3>Pollution</h3>
+                <div class="cross-item">
+                    <a href="#"><img src="{{ asset('img/cover3.jpg') }}"></a>
+                    <h3><a href="#">Pollution</a></h3>
                 </div>
             </div>
         </div>
