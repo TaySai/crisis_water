@@ -8,7 +8,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class NavigationController extends AbstractController
 {
     /**
-     * @Route("/", name="navigation")
+     * @Route("/", name="index")
      */
     public function index()
     {
@@ -16,11 +16,19 @@ class NavigationController extends AbstractController
         return $this->render('navigation/index.html.twig');
     }
     /**
-     * @Route("/annee/2018/assainissement", name="assainissement")
+     * @Route("/annee/2018/asia/assainissement", name="assainissement_asia")
      */
-    public function assainissement()
+    public function assainissement_asia()
     {
 
-        return $this->render('navigation/eda.html.twig');
+        return $this->render('navigation/assainissement-asia.html.twig');
+    }
+    /**
+     * @Route("/annee/2018/afrique/assainissement", name="assainissement_asia")
+     */
+    public function assainissement_africa()
+    {
+
+        return $this->render('navigation/assainissement-africa.html.twig');
     }
 }

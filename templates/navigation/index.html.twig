@@ -1,17 +1,17 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello !{% endblock %}
+{% block title %}Encycl'eau{% endblock %}
 
 {% block body %}
     <div class="container">
         <div class="welcome-index">
-            <h1>👋 Bonjour ! Nous rassemblons pour vous les datasets bla bla.</h1>
-            <a href="#" class="btn-white-filled-blue btn-medium">Découvrir</a>
+            <h1>Découvrez, améliorez, et partagez des données relatives aux thèmes suivants : eau, assainissement, développement durable</h1>
+            <a href="{{ path('assainissement_asia') }}" class="btn-white-filled-blue btn-medium">Découvrir</a>
         </div>
 
         <div class="display-flex">
             <div class="first-box-big">
-                <h2>Enquête 2018, les dernieres EDA de l'année</h2>
+                <h2>Derniers jeux de données.</h2>
                 <a href="#" class="btn-white-filled-blue btn-medium">Regarder</a>
                 <img src="{{ asset('img/water-crisis-2018.png') }}">
             </div>
@@ -26,12 +26,12 @@
 
         <div class="display-flex">
             <div class="first-box-medium">
-                <h2>Comparer les differents changement sur l'eau au fil des années</h2>
+                <h2>Comparez les différents jeux de données concernant l’eau.</h2>
                 <a href="#" class="btn-blue-filled-white btn-medium">Comparer datasets</a>
                 <img src="{{ asset('img/tile-image-tools.png') }}">
             </div>
             <div class="second-box-medium">
-                <h2>Nous collectons pour vous les datasets fournis par l'OMS</h2>
+                <h2>Notre collection de jeux de données fournis par l’OMS.</h2>
                 <a href="#" class="btn-white-filled-blue btn-medium">Regarder la libraire</a>
                 <img src="{{ asset('img/tile-image-books.png') }}">
             </div>
@@ -41,7 +41,7 @@
             <h2>Les nouveux datasets</h2>
             <div class="display-flex">
                 <div class="cross-item">
-                    <a href="#"><img src="{{ asset('img/cover.png') }}"></a>
+                    <a href="#"><img src="{{ asset('img/cover.jpg') }}"></a>
                     <h3><a href="#">Assainissement</a></h3>
                 </div>
                 <div class="cross-item">

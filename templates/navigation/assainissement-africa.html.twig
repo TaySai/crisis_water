@@ -1,0 +1,137 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Assainissement Asia{% endblock %}
+
+{% block body %}
+    <div class="intro-survey">
+        <div class="container">
+            <div class="display-flex">
+                <div class="intro-survey-1">
+                    <img src="{{ asset('img/logo.png') }}">
+                    <h1>E.D.A portant sur les problèmes d’eau en Afrique</h1>
+                </div>
+                <div class="intro-survey-2">
+                    <p>
+                        Dans un effort de compréhension, des principaux problèmes d’eau et d’assainissement dans le monde.
+                        Notre exploration des différentes données disponibles, nous a renvoyé vers le cas de l’Afrique.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-insights" id="Principaux-aperçus">
+        <div class="container">
+            <h2>Principaux aperçus<span class="line"></span></h2>
+            <ul>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M20,11H23V13H20V11M1,11H4V13H1V11M13,1V4H11V1H13M4.92,3.5L7.05,5.64L5.63,7.05L3.5,4.93L4.92,3.5M16.95,5.63L19.07,3.5L20.5,4.93L18.37,7.05L16.95,5.63M12,6A6,6 0 0,1 18,12C18,14.22 16.79,16.16 15,17.2V19A1,1 0 0,1 14,20H10A1,1 0 0,1 9,19V17.2C7.21,16.16 6,14.22 6,12A6,6 0 0,1 12,6M14,21V22A1,1 0 0,1 13,23H11A1,1 0 0,1 10,22V21H14M11,18H13V15.87C14.73,15.43 16,13.86 16,12A4,4 0 0,0 12,8A4,4 0 0,0 8,12C8,13.86 9.27,15.43 11,15.87V18Z"></path></svg>
+                    <span>EDA sur l'assainissement 2018</span>
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M20,11H23V13H20V11M1,11H4V13H1V11M13,1V4H11V1H13M4.92,3.5L7.05,5.64L5.63,7.05L3.5,4.93L4.92,3.5M16.95,5.63L19.07,3.5L20.5,4.93L18.37,7.05L16.95,5.63M12,6A6,6 0 0,1 18,12C18,14.22 16.79,16.16 15,17.2V19A1,1 0 0,1 14,20H10A1,1 0 0,1 9,19V17.2C7.21,16.16 6,14.22 6,12A6,6 0 0,1 12,6M14,21V22A1,1 0 0,1 13,23H11A1,1 0 0,1 10,22V21H14M11,18H13V15.87C14.73,15.43 16,13.86 16,12A4,4 0 0,0 12,8A4,4 0 0,0 8,12C8,13.86 9.27,15.43 11,15.87V18Z"></path></svg>
+                    <span>Nous nous concentrons sur l'asie</span>
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M20,11H23V13H20V11M1,11H4V13H1V11M13,1V4H11V1H13M4.92,3.5L7.05,5.64L5.63,7.05L3.5,4.93L4.92,3.5M16.95,5.63L19.07,3.5L20.5,4.93L18.37,7.05L16.95,5.63M12,6A6,6 0 0,1 18,12C18,14.22 16.79,16.16 15,17.2V19A1,1 0 0,1 14,20H10A1,1 0 0,1 9,19V17.2C7.21,16.16 6,14.22 6,12A6,6 0 0,1 12,6M14,21V22A1,1 0 0,1 13,23H11A1,1 0 0,1 10,22V21H14M11,18H13V15.87C14.73,15.43 16,13.86 16,12A4,4 0 0,0 12,8A4,4 0 0,0 8,12C8,13.86 9.27,15.43 11,15.87V18Z"></path></svg>
+                    <span>Vous pouvez telecharger le dataset <a href="#">ici</a> </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="table-of-contents">
+        <h3>Table des matières</h3>
+        <ul>
+            <li><a href="#Principaux-aperçus">Aperçus</a></li>
+            <li><a href="#First-Graph-Name">First Graph Name</a></li>
+            <li><a href="#Second-Graph-Name">Seconde Graph Name</a></li>
+            <li><a href="#Third-Graph-Name">Third Graph Name</a></li>
+            <li><a href="#Forth-Graph-Name">Forth Graph Name</a></li>
+        </ul>
+        <a href="#" download="" class="btn-white-filled-blue">Telecharger l'EDA</a>
+    </div>
+    <div class="body-eda">
+        <div class="container">
+            <div class="case-eda" id="First-Graph-Name">
+                <h2>Graph population qui ont de l'assainissement<span class="line"></span> </h2>
+                <img src="{{ asset('img/assainissement-2018.png') }}">
+                <span class="btn-white-filled-blue see-code">Voir Source Code</span>
+                <pre class="code-python">
+                    <p class="btn-white-filled-blue close-code">X</p>
+                    <span>dfn.sort_values(by='Sanitation_2015_Total').plot.bar(x='Country',y='Sanitation_2015_Total'</span>
+                    <span>  ,figsize=(15,7)</span>
+                    <span>  ,fontsize=13</span>
+                    <span>  ,title="Pourcentage de la population utilisant au moins des services d'assainissement de base."</span>
+                    <span>  ,legend = False</span>
+                    <span>  ,grid = True</span>
+                    <span>  ,rot = 20</span>
+                    <span>  )</span>
+                </pre>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled
+                    it to make a type specimen book.
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled
+                    it to make a type specimen book
+                </p>
+            </div>
+
+            <div class="case-eda" id="Fifth-Graph-Name">
+                <h2>Evolution assainissement a travers les années<span class="line"></span> </h2>
+                <img src="{{ asset('img/evolution-assainissement-2018.png') }}">
+                <span class="btn-white-filled-blue see-code">Voir Source Code</span>
+                <pre class="code-python">
+                    <p class="btn-white-filled-blue close-code">X</p>
+                    <span>fig1, ax1 = plt.subplots()</span>
+                    <span>fig1.set_size_inches(20,10)</span>
+                    <span>for i in range(len(countries)):</span>
+                    <span>   ax1.plot(years,values_total[i], lw=2, label=countries[i])</span>
+                    <span>ax1.legend(loc=‘lower right’, fancybox=True, shadow=False,fontsize=15)</span>
+                    <span>ax1.set_title(“Évolution de l’accès à l’assainissement pour la population totale entre 2005 et 2015.“,size=15)</span>
+                    <span>plt.xticks(size=15)</span>
+                    <span>plt.yticks(size=15)</span>
+                    <span>ax1.grid(True)</span>
+                </pre>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled
+                    it to make a type specimen book.
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled
+                    it to make a type specimen book
+                </p>
+            </div>
+            <div class="case-eda" id="Sixth-Graph-Name">
+                <h2>Graph water quality par pays<span class="line"></span> </h2>
+                <img src="{{ asset('img/evolution-eau-potable-2018.png') }}">
+                <span class="btn-white-filled-blue see-code">Voir Source Code</span>
+                <pre class="code-python">
+                    <p class="btn-white-filled-blue close-code">X</p>
+                    <span>fig, ax = plt.subplots()</span>
+                    <span>fig.set_size_inches(20,10)</span>
+                    <span>for i in range(len(countries)):</span>
+                    <span>   ax.plot(years,values_totalDW[i], lw=2, label=countries[i])</span>
+                    <span>ax.legend(loc=‘lower right’, fancybox=True, shadow=False,fontsize=15)</span>
+                    <span>ax.set_title(“Évolution de l’accès à l’eau potable pour la population totale entre 2005 et 2015.“,size=15)</span>
+                    <span>plt.xticks(size=15)</span>
+                    <span>plt.yticks(size=15)</span>
+                    <span>ax.grid(True)</span>
+                </pre>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled
+                    it to make a type specimen book.
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled
+                    it to make a type specimen book
+                </p>
+            </div>
+        </div>
+    </div>
+{% endblock %}
