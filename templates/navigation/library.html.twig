@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Librairie 2018{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <div class="welcome-index">
+            <h1>Librairie</h1>
+        </div>
+        <div class="cross-ads">
+            <div class="display-flex">
+                <div class="cross-item">
+                    <a href="{{ path('assainissement_asia') }}"><img src="{{ asset('img/cover.jpg') }}"></a>
+                    <h3><a href="{{ path('assainissement_asia') }}">Assainissement Asie 2018</a></h3>
+                </div>
+                <div class="cross-item">
+                    <a href="#" class="isDisabled"><img src="{{ asset('img/cover.jpg') }}"></a>
+                    <h3><a href="#" class="isDisabled">Assainissement Afrique 2018</a></h3>
+                </div>
+                <div class="cross-item">
+                    <a href="#" class="isDisabled"><img src="{{ asset('img/cover2.jpg') }}"></a>
+                    <h3><a href="#" class="isDisabled">Séchresse Asie 2018</a></h3>
+                </div>
+                <div class="cross-item">
+                    <a href="#" class="isDisabled"><img src="{{ asset('img/cover3.jpg') }}"></a>
+                    <h3><a href="#" class="isDisabled">Pollution Asie 2018</a></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

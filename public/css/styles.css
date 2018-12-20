@@ -19,6 +19,10 @@ header a {
     color: white;
     margin: 0 15px;
 }
+header a:hover {
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
 h1, h2 {
     color: #3D4752;
 }
@@ -35,6 +39,10 @@ li {
 }
 
 /*Les boutons */
+.isDisabled {
+    cursor: not-allowed;
+    text-decoration: none;
+}
 .btn-blue-filled-white:hover, .btn-white-filled-blue:hover {
     box-shadow: 0 1px 20px rgba(0, 0, 0, 0.5);
     transition: box-shadow 0.5s;
@@ -90,10 +98,11 @@ li {
 }
 .display-flex {
     display: flex;
+    flex-wrap: wrap;
     margin: 20px 0;
 }
 .first-box-big {
-    width: 800px;
+    width: 667px;
     margin-right: 40px;
     position: relative;
     overflow: hidden;
@@ -140,6 +149,7 @@ li {
     height: 310px;
     position: relative;
     overflow: hidden;
+    z-index: 1;
 }
 .first-box-medium h2, .second-box-medium h2 {
     color: white;
@@ -151,10 +161,11 @@ li {
     bottom: -5%;
     right: -15%;
     opacity: 0.15;
+    z-index: -1;
 }
 .first-box-medium {
     background-image: linear-gradient(-45deg, #77BBFA 0%, #4285F4 100%);
-    margin-right: 40px;
+    margin-right: 16px;
 }
 .second-box-medium {
     background-color: #1F3E71;
@@ -172,6 +183,7 @@ li {
     width: 322px;
     height: 212px;
     margin-right: 30px;
+    margin-bottom: 70px;
 }
 .cross-item:last-child {
     margin-right: 0;

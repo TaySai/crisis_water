@@ -24,11 +24,19 @@ class NavigationController extends AbstractController
         return $this->render('navigation/assainissement-asia.html.twig');
     }
     /**
-     * @Route("/annee/2018/afrique/assainissement", name="assainissement_asia")
+     * @Route("/annee/2018/afrique/assainissement", name="assainissement_africa")
      */
     public function assainissement_africa()
     {
 
         return $this->render('navigation/assainissement-africa.html.twig');
+    }
+    /**
+     * @Route("/librairie", name="librairie")
+     */
+    public function Librairie()
+    {
+
+        return $this->render('navigation/library.html.twig');
     }
 }

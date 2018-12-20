@@ -12,14 +12,14 @@
         <div class="display-flex">
             <div class="first-box-big">
                 <h2>Derniers jeux de données.</h2>
-                <a href="#" class="btn-white-filled-blue btn-medium">Regarder</a>
+                <a href="#" class="btn-white-filled-blue btn-medium isDisabled">Regarder</a>
                 <img src="{{ asset('img/water-crisis-2018.png') }}">
             </div>
             <div class="second-box-small">
                 <h2>Contactez nous</h2>
                 <form>
                     <input type="text" placeholder="Adresse">
-                    <button class="btn-white-filled-blue btn-medium">Envoyer</button>
+                    <button class="btn-white-filled-blue btn-medium isDisabled">Envoyer</button>
                 </form>
             </div>
         </div>
@@ -27,12 +27,12 @@
         <div class="display-flex">
             <div class="first-box-medium">
                 <h2>Comparez les différents jeux de données concernant l’eau.</h2>
-                <a href="#" class="btn-blue-filled-white btn-medium">Comparer datasets</a>
+                <a href="#" class="btn-blue-filled-white btn-medium isDisabled">Comparer datasets</a>
                 <img src="{{ asset('img/tile-image-tools.png') }}">
             </div>
             <div class="second-box-medium">
                 <h2>Notre collection de jeux de données fournis par l’OMS.</h2>
-                <a href="#" class="btn-white-filled-blue btn-medium">Regarder la libraire</a>
+                <a href="#" class="btn-white-filled-blue btn-medium isDisabled">Regarder la libraire</a>
                 <img src="{{ asset('img/tile-image-books.png') }}">
             </div>
         </div>
@@ -41,16 +41,28 @@
             <h2>Les nouveux datasets</h2>
             <div class="display-flex">
                 <div class="cross-item">
-                    <a href="#"><img src="{{ asset('img/cover.jpg') }}"></a>
-                    <h3><a href="#">Assainissement</a></h3>
+                    <a href="{{ path('assainissement_asia') }}"><img src="{{ asset('img/cover.jpg') }}"></a>
+                    <h3><a href="{{ path('assainissement_asia') }}">Assainissement Asie 2018</a></h3>
                 </div>
                 <div class="cross-item">
-                    <a href="#"><img src="{{ asset('img/cover2.jpg') }}"></a>
-                    <h3><a href="#">Séchresse</a></h3>
+                    <a href="#" class="isDisabled"><img src="{{ asset('img/cover2.jpg') }}"></a>
+                    <h3><a href="#" class="isDisabled">Secheresse Asie 2018</a></h3>
                 </div>
                 <div class="cross-item">
-                    <a href="#"><img src="{{ asset('img/cover3.jpg') }}"></a>
-                    <h3><a href="#">Pollution</a></h3>
+                    <a href="#" class="isDisabled"><img src="{{ asset('img/cover3.jpg') }}"></a>
+                    <h3><a href="#" class="isDisabled">Pollution Asie 2018</a></h3>
+                </div>
+                <div class="cross-item">
+                    <a href="#" class="isDisabled"><img src="{{ asset('img/cover4.jpg') }}"></a>
+                    <h3><a href="#" class="isDisabled">Santé 2018</a></h3>
+                </div>
+                <div class="cross-item">
+                    <a href="#" class="isDisabled"><img src="{{ asset('img/cover5.jfif') }}"></a>
+                    <h3><a href="#" class="isDisabled">Prévision 2018</a></h3>
+                </div>
+                <div class="cross-item">
+                    <a href="#" class="isDisabled"><img src="{{ asset('img/cover6.png') }}"></a>
+                    <h3><a href="#" class="isDisabled">Projet et succes 2018</a></h3>
                 </div>
             </div>
         </div>
